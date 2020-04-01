@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSoftplan.WebApp02", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSoftplan.Test", "DesafioSoftplan.Test\DesafioSoftplan.Test.csproj", "{7F29E35C-CA69-4575-9891-2C753E64CA6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51B1BF6E-269E-477C-B304-C9B6FD207CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA89D735-B338-4249-9B67-ED6C11663016} = {51B1BF6E-269E-477C-B304-C9B6FD207CEF}
+		{E795346C-612C-4CE5-9956-75F7A3ACFE62} = {51B1BF6E-269E-477C-B304-C9B6FD207CEF}
+		{7F29E35C-CA69-4575-9891-2C753E64CA6E} = {51B1BF6E-269E-477C-B304-C9B6FD207CEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14BD1469-E940-4129-8C43-664DFEB3702A}
